@@ -1,0 +1,11 @@
+p {
+    text-align: justify;
+    font: Arial; 
+    font-size: 14px;
+}
+
+p.datosGenerales{
+    font: Times New Roman;
+    font-size: 18px;
+    text-align: left;
+}
