@@ -1,0 +1,89 @@
+body {
+    background-image:     linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.6)
+    ),
+        url("../img/joshua-sortino-274493.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+.section{
+    color:orange;
+}
+.logo {
+    margin: 20px;
+    align-items: center;
+}
+.section {
+	margin: 50px 0;
+}
+ 
+.section h1 {
+	font: 55px/65px Helvetica, sans-serif;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    display:list-item;
+}relative
+
+li {
+    float: right;
+}
+
+li a {
+    color: black;
+    text-align: left;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    /*background-color: #e67e23;*/
+    text-decoration-color: #e67e23;
+    border-bottom: thick solid #e57e23;
+    padding-bottom: .6em;
+}
+
+.active {
+    background-color: #e67e23;
+}
+
+.navbar {
+    margin: 50px; 
+}
+
+.content {
+    font-family: 'Lato', sans-serif;
+    margin-top: 250px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    
+    
+    color: aliceblue
+}
+
+.orange {
+    background-color: #e67e23;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    border: 2px solid #e67e23;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+     width: 170px;
+}
+
+
